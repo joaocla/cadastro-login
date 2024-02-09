@@ -1,6 +1,7 @@
 # Projeto de Tela de Login e Cadastro
 
 Este projeto consiste em uma aplicação web simples que inclui uma tela de login e uma tela de cadastro, construídas com HTML, CSS e JavaScript. O objetivo é fornecer uma interface intuitiva para os usuários acessarem e se registrarem na plataforma.
+Para acessar a página de login do projeto, clique [aqui](https://joaocla.github.io/cadastro-login/pages/login.html), ou para acessar a pagina de cadastro, cliquei [aqui](https://joaocla.github.io/cadastro-login/pages/cadastro.html).
 
 ## Passo a passo para baixar e utilizar
 
