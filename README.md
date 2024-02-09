@@ -58,4 +58,4 @@ Este projeto oferece uma solução fácil e prática para gerenciar o acesso dos
 - O projeto pode ser facilmente personalizado e expandido de acordo com as necessidades do seu próprio sistema de login e cadastro.
 
 ## Autor
-Seu Nome
+João Claudio
