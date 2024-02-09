@@ -3,28 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles/cadastro.css">
     <title>Cadastro</title>
 </head>
 <body>
-    <form>
-        <h2>Cadastro</h2>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required>
 
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required>
+    <div class='container'>
+      <div class='card'>
+        <h1> Cadastrar </h1>
+        
+        <div id='msgError'></div>
+        <div id='msgSuccess'></div>
+        
+                <div class="label-float">
+                   <input type="text" id="nome" placeholder=" " required>
+                   <label id="labelNome" for="nome">Nome</label>
+                </div>
+    
+                
+                <div class="label-float">
+                    <input type="text" id="email" placeholder=" " required>
+                    <label id="labelEmail" for="email">E-mail</label>
+                </div>
+                
+                <div class="label-float">
+                   <input type="text" id="telefone" placeholder=" " maxlength="15" required>
+                   <label id="labelTel" for="telefone">Telefone</label>
+                </div>
 
-        <label for="telefone">Telefone:</label>
-        <input type="tel" id="telefone" name="telefone" placeholder="(99) 99999-9999" required maxlength="15">
+                <div class="label-float">
+                    <input type="text" id="cpf" placeholder=" " maxlength="14" required>
+                    <label id="labelCpf" for="cpf">CPF</label>
+                 </div>
+    
+                <div class="label-float">
+                    <input type="password" id="senha" placeholder=" " required>
+                    <label id="labelSenha" for="senha">Senha</label>
+                    <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+                    
+                </div>
+                
+                <div class="label-float">
+                   <input type="password" id="confirmSenha" placeholder=" " required>
+                   <label id="labelConfirmSenha" for="confirmSenha">Confirmar Senha</label>
+                   <i id="verConfirmSenha" class="fa fa-eye" aria-hidden="true"></i>
+                </div>
+                
+                <div class='justify-center'>
+                   <button onclick='cadastrar()'>Cadastrar</button>
 
-        <label for="cpf">CPF:</label>
-        <input type="text" id="cpf" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="123.456.789-10" required>
-
-        <label for="senha">Senha:</label>
-        <input type="password" id="senha" name="senha" required>
-
-        <input type="submit" value="Cadastrar">
-    </form>
-    <script src="../js/scripts.js"></script>
+                <p> Já possui uma conta?
+                    <a href='login.html'> Faça seu Login! </a>
+                </p>
+    </div>
+    <script src="../js/cadastro.js"></script>
 </body>
 </html>
