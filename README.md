@@ -8,22 +8,16 @@ Este projeto consiste em uma aplicação web simples que inclui uma tela de logi
    - Abra o terminal ou prompt de comando.
    - Execute o seguinte comando para clonar o repositório:
      ```
-     git clone https://github.com/seuusuario/seurepositorio.git
+     git clone https://github.com/joaocla/cadastro-login.git
      ```
 
-2. **Acesse a pasta do projeto:**
-   - Navegue até o diretório do projeto clonado usando o terminal ou prompt de comando:
-     ```
-     cd nomedapasta
-     ```
-
-3. **Abra a pasta "pages":**
+2. **Abra a pasta "pages":**
    - Dentro da pasta do projeto, acesse a pasta "pages":
      ```
      cd pages
      ```
 
-4. **Abra o arquivo HTML desejado:**
+3. **Abra o arquivo HTML desejado:**
    - Dentro da pasta "pages", você encontrará dois arquivos HTML principais: "login.html" e "cadastro.html".
    - Escolha o arquivo que deseja abrir e visualize-o em um navegador da web:
      - Por exemplo:
